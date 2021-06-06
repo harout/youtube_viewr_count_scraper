@@ -111,5 +111,6 @@ if __name__ == '__main__':
     today = date.today()
     report_name = './data/channel_data_' + today.strftime("%B_%d_%Y") + '.tsv'
     with open(report_name, 'w') as f:
+        f.write("name\turl\tsubscribers\tviews\n")
         for result in results:
             f.write(result[0] + "\t" + result[1] + "\t" + result[2] + "\t" + result[3] + "\n")
