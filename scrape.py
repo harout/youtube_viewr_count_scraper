@@ -113,28 +113,3 @@ if __name__ == '__main__':
     with open(report_name, 'w') as f:
         for result in results:
             f.write(result[0] + "\t" + result[1] + "\t" + result[2] + "\t" + result[3] + "\n")
-
-# for channel in channels:
-#     channel_name = channel[0]
-#     channel_url = channel[1]
-#     page = requests.get(channel_url)
-#     sub_count_search = re.search(r'subscriberCountText(.*?)"simpleText":"(.*?) subscribers"', page.text, re.M)
-#     num_subscribers = 'unknown subscriber count'
-#     if sub_count_search:
-#         num_subscribers = sub_count_search.group(2)
-#         if num_subscribers.endswith('K'):
-#             num_subscribers = str(round(float(num_subscribers[:-1]) * 1000))
-#         num_subscribers = num_subscribers.replace(',', '')
-
-
-#     num_views_search = re.search(r'viewCountText(.*?)"simpleText":"(.*?) views"', page.text, re.M)
-#     if not num_views_search:
-#         results.append([channel_name, num_subscribers, 'unknown view count'])
-#         continue
-
-#     num_views = num_views_search.group(2)
-#     num_views = num_views.replace(',', '')
-#     results.append([channel_name, num_subscribers, num_views])
-
-
-
