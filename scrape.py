@@ -1,11 +1,13 @@
 import requests
 import re
 from multiprocessing import Pool
+from datetime import date
 
 def get_channel_info(channel):
     channel_name = channel[0]
     channel_url = channel[1]
     page = requests.get(channel_url)
+    print('Got results for ', channel_name)
     sub_count_search = re.search(r'subscriberCountText(.*?)"simpleText":"(.*?) subscribers"', page.text, re.M)
     num_subscribers = 'unknown subscriber count'
     if sub_count_search:
@@ -101,10 +103,16 @@ channels = [['Factor tv', 'http://www.youtube.com/c/Factortv/about'],
             ]
 
 if __name__ == '__main__':
-    with Pool(5) as p:
+    with Pool(3) as p:
         results = p.map(get_channel_info, channels)
         for result in results:
             print(result[0] + "\t" + result[1] + "\t" + result[2] + "\t" + result[3])
+
+    today = date.today()
+    report_name = './data/channel_data_' + today.strftime("%B_%d_%Y") + '.tsv'
+    with open(report_name, 'w') as f:
+        for result in results:
+            f.write(result[0] + "\t" + result[1] + "\t" + result[2] + "\t" + result[3] + "\n")
 
 # for channel in channels:
 #     channel_name = channel[0]
