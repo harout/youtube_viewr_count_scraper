@@ -28,7 +28,6 @@ def get_channel_info(channel):
 
 channels = [['Factor tv', 'http://www.youtube.com/c/Factortv/about'],
             ['a1Plus', 'https://www.youtube.com/c/a1plus/about'],
-            ['armtimes', 'https://www.youtube.com/c/ArmtimesNewspaper/about'],
             ['azatutyun radio', 'https://www.youtube.com/c/azatutyunradio/about'],
             ['perfect tv', 'https://www.youtube.com/channel/UC8kOchMgfcXZTDtgQ67LM9Q/about'],
             ['ArmNkr News', 'https://www.youtube.com/channel/UCOcuOF0M-rZ5QzKTvr1J8IQ/about'],
