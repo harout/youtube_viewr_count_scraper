@@ -51,4 +51,7 @@ if __name__ == '__main__':
         f.write("url\ttitle\tcreated\tviews\tlikes\tdislikes\n")
         for result in results:
             title = result['title'].replace("\t", ' ')
-            f.write(result['url'] + "\t" + title + "\t" + result['created'] + "\t" + result['views'] + "\t" + result['likes'] + "\t" + result['dislikes'] + "\n")
+            views = result['views'].replace(',', '')
+            likes = result['likes'].replace(',', '')
+            dislikes = result['dislikes'].replace(',', '')
+            f.write(result['url'] + "\t" + title + "\t" + result['created'] + "\t" + views + "\t" + likes + "\t" + dislikes + "\n")
