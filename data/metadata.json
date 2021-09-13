@@ -1,391 +1,435 @@
 {
   "channels": {
     "1": {
+      "id": 1,
       "name": "Factor tv",
-      "url": "http://www.youtube.com/c/Factortv/about",
-      "id": 1
+      "url": "http://www.youtube.com/c/Factortv/about"
     },
     "2": {
+      "id": 2,
       "name": "a1Plus",
-      "url": "https://www.youtube.com/c/a1plus/about",
-      "id": 2
+      "url": "https://www.youtube.com/c/a1plus/about"
     },
     "3": {
+      "id": 3,
       "name": "azatutyun radio",
-      "url": "https://www.youtube.com/c/azatutyunradio/about",
-      "id": 3
+      "url": "https://www.youtube.com/c/azatutyunradio/about"
     },
     "4": {
+      "id": 4,
       "name": "perfect tv",
-      "url": "https://www.youtube.com/channel/UC8kOchMgfcXZTDtgQ67LM9Q/about",
-      "id": 4
+      "url": "https://www.youtube.com/channel/UC8kOchMgfcXZTDtgQ67LM9Q/about"
     },
     "5": {
+      "id": 5,
       "name": "ArmNkr News",
-      "url": "https://www.youtube.com/channel/UCOcuOF0M-rZ5QzKTvr1J8IQ/about",
-      "id": 5
+      "url": "https://www.youtube.com/channel/UCOcuOF0M-rZ5QzKTvr1J8IQ/about"
     },
     "6": {
+      "id": 6,
       "name": "Vardan Ghukasyan \u054e\u0561\u0580\u0564\u0561\u0576 \u0542\u0578\u0582\u056f\u0561\u057d\u0575\u0561\u0576",
-      "url": "https://www.youtube.com/channel/UChXhis-jyFXzMw4o9hML3vA/about",
-      "id": 6
+      "url": "https://www.youtube.com/channel/UChXhis-jyFXzMw4o9hML3vA/about"
     },
     "7": {
+      "id": 7,
       "name": "24TV",
-      "url": "https://www.youtube.com/c/24TVArmenia/about",
-      "id": 7
+      "url": "https://www.youtube.com/c/24TVArmenia/about"
     },
     "8": {
+      "id": 8,
       "name": "365daily am",
-      "url": "https://www.youtube.com/channel/UCGOYnPqyWiPwPdlvUlfuNcQ/about",
-      "id": 8
+      "url": "https://www.youtube.com/channel/UCGOYnPqyWiPwPdlvUlfuNcQ/about"
     },
     "9": {
+      "id": 9,
       "name": "NEWS AM",
-      "url": "https://www.youtube.com/c/NewsamChannel/about",
-      "id": 9
+      "url": "https://www.youtube.com/c/NewsamChannel/about"
     },
     "10": {
+      "id": 10,
       "name": "STP ARM NEWS",
-      "url": "https://www.youtube.com/c/STPmusicRAP/about",
-      "id": 10
+      "url": "https://www.youtube.com/c/STPmusicRAP/about"
     },
     "11": {
+      "id": 11,
       "name": "ArmLur official",
-      "url": "https://www.youtube.com/channel/UChjW08B983y0T2NvktcIjfg/about",
-      "id": 11
+      "url": "https://www.youtube.com/channel/UChjW08B983y0T2NvktcIjfg/about"
     },
     "12": {
+      "id": 12,
       "name": "1in.am",
-      "url": "https://www.youtube.com/c/1inam/about",
-      "id": 12
+      "url": "https://www.youtube.com/c/1inam/about"
     },
     "13": {
+      "id": 13,
       "name": "HAYELI AM",
-      "url": "https://www.youtube.com/c/Hayeliam_Hayeli_Akumb/about",
-      "id": 13
+      "url": "https://www.youtube.com/c/Hayeliam_Hayeli_Akumb/about"
     },
     "14": {
+      "id": 14,
       "name": "8rd. am",
-      "url": "https://www.youtube.com/channel/UCzQMSe3jpEVDTJa9jy9eEZA/about",
-      "id": 14
+      "url": "https://www.youtube.com/channel/UCzQMSe3jpEVDTJa9jy9eEZA/about"
     },
     "15": {
+      "id": 15,
       "name": "YELAKET / Yelaket News Agency /",
-      "url": "https://www.youtube.com/c/YelaketNewsAgency/about",
-      "id": 15
+      "url": "https://www.youtube.com/c/YelaketNewsAgency/about"
     },
     "16": {
+      "id": 16,
       "name": "Armenian Public TV",
-      "url": "https://www.youtube.com/c/ArmenianPublicTV/about",
-      "id": 16
+      "url": "https://www.youtube.com/c/ArmenianPublicTV/about"
     },
     "17": {
+      "id": 17,
       "name": "5 TV Channel",
-      "url": "https://www.youtube.com/c/AraratTv/about",
-      "id": 17
+      "url": "https://www.youtube.com/c/AraratTv/about"
     },
     "18": {
+      "id": 18,
       "name": "SHD ARM TV",
-      "url": "https://www.youtube.com/c/SHDARMTV/about",
-      "id": 18
+      "url": "https://www.youtube.com/c/SHDARMTV/about"
     },
     "19": {
+      "id": 19,
       "name": "amenor am",
-      "url": "https://www.youtube.com/channel/UCfqS6YahbpwtWQRCJNOyVEw/about",
-      "id": 19
+      "url": "https://www.youtube.com/channel/UCfqS6YahbpwtWQRCJNOyVEw/about"
     },
     "20": {
+      "id": 20,
       "name": "AREG TV",
-      "url": "https://www.youtube.com/c/aregtv/about",
-      "id": 20
+      "url": "https://www.youtube.com/c/aregtv/about"
     },
     "21": {
+      "id": 21,
       "name": "8rd news",
-      "url": "https://www.youtube.com/channel/UC0uK3jBxj6ioFn5-XsleQKA/about",
-      "id": 21
+      "url": "https://www.youtube.com/channel/UC0uK3jBxj6ioFn5-XsleQKA/about"
     },
     "22": {
+      "id": 22,
       "name": "Asekose am",
-      "url": "https://www.youtube.com/user/ASEKOSEful/about",
-      "id": 22
+      "url": "https://www.youtube.com/user/ASEKOSEful/about"
     },
     "23": {
+      "id": 23,
       "name": "ArmNews",
-      "url": "https://www.youtube.com/user/ArmnewsTV/about",
-      "id": 23
+      "url": "https://www.youtube.com/user/ArmnewsTV/about"
     },
     "24": {
+      "id": 24,
       "name": "ARTN TV",
-      "url": "https://www.youtube.com/channel/UCGto6lM2ggZi4Ut4GHo31XA/about",
-      "id": 24
+      "url": "https://www.youtube.com/channel/UCGto6lM2ggZi4Ut4GHo31XA/about"
     },
     "25": {
+      "id": 25,
       "name": "ArmLur TV",
-      "url": "https://www.youtube.com/c/ArmLurTV/about",
-      "id": 25
+      "url": "https://www.youtube.com/c/ArmLurTV/about"
     },
     "26": {
+      "id": 26,
       "name": "\u053c\u0548\u0552\u0550\u0535\u0550 \u0546\u0578\u0580\u0578\u0582\u0569\u0575\u0578\u0582\u0576\u0576\u0565\u0580 \u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b\u0581",
-      "url": "https://www.youtube.com/user/LURERcom/about",
-      "id": 26
+      "url": "https://www.youtube.com/user/LURERcom/about"
     },
     "27": {
+      "id": 27,
       "name": "ArmeniaNow",
-      "url": "https://www.youtube.com/c/ArmeniaNow/about",
-      "id": 27
+      "url": "https://www.youtube.com/c/ArmeniaNow/about"
     },
     "28": {
+      "id": 28,
       "name": "SecretTube",
-      "url": "https://www.youtube.com/channel/UCTRRvh0-lR9rPaC0nzNYFMA/about",
-      "id": 28
+      "url": "https://www.youtube.com/channel/UCTRRvh0-lR9rPaC0nzNYFMA/about"
     },
     "29": {
+      "id": 29,
       "name": "\u0532\u0561\u0581 TV",
-      "url": "https://www.youtube.com/channel/UCf2o81mWr-bZsLbq2-kOYTQ/about",
-      "id": 29
+      "url": "https://www.youtube.com/channel/UCf2o81mWr-bZsLbq2-kOYTQ/about"
     },
     "30": {
+      "id": 30,
       "name": "CIVILNET",
-      "url": "https://www.youtube.com/c/CivilNetTV/about",
-      "id": 30
+      "url": "https://www.youtube.com/c/CivilNetTV/about"
     },
     "31": {
+      "id": 31,
       "name": "iravabannet",
-      "url": "https://www.youtube.com/user/iravabannet/about",
-      "id": 31
+      "url": "https://www.youtube.com/user/iravabannet/about"
     },
     "32": {
+      "id": 32,
       "name": "AD TV",
-      "url": "https://www.youtube.com/channel/UC8k_9xHrn82EV_oSFXBE6Cw/about",
-      "id": 32
+      "url": "https://www.youtube.com/channel/UC8k_9xHrn82EV_oSFXBE6Cw/about"
     },
     "33": {
+      "id": 33,
       "name": "Live News",
-      "url": "https://www.youtube.com/channel/UCCllZTHrcly_pkPvb_V1ovA/about",
-      "id": 33
+      "url": "https://www.youtube.com/channel/UCCllZTHrcly_pkPvb_V1ovA/about"
     },
     "34": {
+      "id": 34,
       "name": "Novosti-Armenia",
-      "url": "https://www.youtube.com/c/NovostiArmenia/about",
-      "id": 34
+      "url": "https://www.youtube.com/c/NovostiArmenia/about"
     },
     "35": {
+      "id": 35,
       "name": "Kentron Channel",
-      "url": "https://www.youtube.com/c/KentronChannel/about",
-      "id": 35
+      "url": "https://www.youtube.com/c/KentronChannel/about"
     },
     "36": {
+      "id": 36,
       "name": "Tv9 am",
-      "url": "https://www.youtube.com/c/Tv9am/about",
-      "id": 36
+      "url": "https://www.youtube.com/c/Tv9am/about"
     },
     "37": {
+      "id": 37,
       "name": "\u0531\u0536\u0533\u0531\u0545\u053b\u0546 - \u053a\u0548\u0542\u0548\u054e\u0550\u0534\u0531\u054e\u0531\u0550\u0531\u053f\u0531\u0546 \u0532\u0535\u054e\u0535\u054c",
-      "url": "https://www.youtube.com/user/preparliament/about",
-      "id": 37
+      "url": "https://www.youtube.com/user/preparliament/about"
     },
     "38": {
+      "id": 38,
       "name": "SHANT NEWS",
-      "url": "https://www.youtube.com/c/SHANTNEWS/about",
-      "id": 38
+      "url": "https://www.youtube.com/c/SHANTNEWS/about"
     },
     "39": {
+      "id": 39,
       "name": "The Yerevan Times",
-      "url": "https://www.youtube.com/c/TheGamesWorld/about",
-      "id": 39
+      "url": "https://www.youtube.com/c/TheGamesWorld/about"
     },
     "40": {
+      "id": 40,
       "name": "Yerevanyan Blog TV",
-      "url": "https://www.youtube.com/c/YerevanyanBlog/about",
-      "id": 40
+      "url": "https://www.youtube.com/c/YerevanyanBlog/about"
     },
     "41": {
+      "id": 41,
       "name": "Sparta 1",
-      "url": "https://www.youtube.com/channel/UCGxciBpj8fWpZIP805J1qVA/about",
-      "id": 41
+      "url": "https://www.youtube.com/channel/UCGxciBpj8fWpZIP805J1qVA/about"
     },
     "42": {
+      "id": 42,
       "name": "Kristine Halajyan \u0554\u0580\u056b\u057d\u057f\u056b\u0576\u0565 \u0540\u0561\u056c\u0561\u057b\u0575\u0561\u0576",
-      "url": "https://www.youtube.com/channel/UCOKWS2GcPCEQ9VPx3Nkobcw/about",
-      "id": 42
+      "url": "https://www.youtube.com/channel/UCOKWS2GcPCEQ9VPx3Nkobcw/about"
     },
     "43": {
+      "id": 43,
       "name": "Tert. am",
-      "url": "https://www.youtube.com/user/tertamarmenia/about",
-      "id": 43
+      "url": "https://www.youtube.com/user/tertamarmenia/about"
     },
     "44": {
+      "id": 44,
       "name": "Suren Sargsyan",
-      "url": "https://www.youtube.com/channel/UC-IEdDubp1Io--BquY-183g/about",
-      "id": 44
+      "url": "https://www.youtube.com/channel/UC-IEdDubp1Io--BquY-183g/about"
     },
     "45": {
+      "id": 45,
       "name": "The Great Armenia",
-      "url": "https://www.youtube.com/c/TheGreatArmenia/about",
-      "id": 45
+      "url": "https://www.youtube.com/c/TheGreatArmenia/about"
     },
     "46": {
+      "id": 46,
       "name": "PARATV",
-      "url": "https://www.youtube.com/c/PARADIPLOMACYTV/about",
-      "id": 46
+      "url": "https://www.youtube.com/c/PARADIPLOMACYTV/about"
     },
     "47": {
+      "id": 47,
       "name": "POLICE RA Vostikanutyun",
-      "url": "https://www.youtube.com/c/Vostikanutyun/about",
-      "id": 47
+      "url": "https://www.youtube.com/c/Vostikanutyun/about"
     },
     "48": {
+      "id": 48,
       "name": "Armenian National Network",
-      "url": "https://www.youtube.com/c/ANNmedia/about",
-      "id": 48
+      "url": "https://www.youtube.com/c/ANNmedia/about"
     },
     "49": {
+      "id": 49,
       "name": "NVO1",
-      "url": "https://www.youtube.com/channel/UCadQz-sg0lid5bxjqPc6Olg/about",
-      "id": 49
+      "url": "https://www.youtube.com/channel/UCadQz-sg0lid5bxjqPc6Olg/about"
     },
     "50": {
+      "id": 50,
       "name": "Armenian Second TV Channel / h2",
-      "url": "https://www.youtube.com/c/armh2/about",
-      "id": 50
+      "url": "https://www.youtube.com/c/armh2/about"
     },
     "51": {
+      "id": 51,
       "name": "\u0531\u0574\u0565\u0580\u056b\u056f\u0561\u0575\u056b \u0541\u0561\u0575\u0576 VOA Armenian",
-      "url": "https://www.youtube.com/c/VOAArmenian/about",
-      "id": 51
+      "url": "https://www.youtube.com/c/VOAArmenian/about"
     },
     "52": {
+      "id": 52,
       "name": "PastinfoTV",
-      "url": "https://www.youtube.com/user/PastinfoTV/about",
-      "id": 52
+      "url": "https://www.youtube.com/user/PastinfoTV/about"
     },
     "53": {
+      "id": 53,
       "name": "ArmeniaTV News",
-      "url": "https://www.youtube.com/channel/UCTeGnM60U9qoLH7ZZDhAsSg/about",
-      "id": 53
+      "url": "https://www.youtube.com/channel/UCTeGnM60U9qoLH7ZZDhAsSg/about"
     },
     "54": {
+      "id": 54,
       "name": "Vardan Hakobyan",
-      "url": "https://www.youtube.com/c/VardanHakobyan/about",
-      "id": 54
+      "url": "https://www.youtube.com/c/VardanHakobyan/about"
     },
     "55": {
+      "id": 55,
       "name": "\u053d\u0578\u057d\u0565\u0576\u0584 \u0553\u0561\u057d\u057f\u0565\u0580\u0578\u057e TV",
-      "url": "https://www.youtube.com/channel/UCZuKdeF9yfOjZ0J7AbBUOAw/about",
-      "id": 55
+      "url": "https://www.youtube.com/channel/UCZuKdeF9yfOjZ0J7AbBUOAw/about"
     },
     "56": {
+      "id": 56,
       "name": "HetqTV",
-      "url": "https://www.youtube.com/user/HetqTV/about",
-      "id": 56
+      "url": "https://www.youtube.com/user/HetqTV/about"
     },
     "57": {
+      "id": 57,
       "name": "Artsakh Public TV",
-      "url": "https://www.youtube.com/channel/UC0bE8sdgd54oJBscXJfupCw/about",
-      "id": 57
+      "url": "https://www.youtube.com/channel/UC0bE8sdgd54oJBscXJfupCw/about"
     },
     "58": {
+      "id": 58,
       "name": "Yerevan Today Live",
-      "url": "https://www.youtube.com/c/YerevanTodayNews/about",
-      "id": 58
+      "url": "https://www.youtube.com/c/YerevanTodayNews/about"
     },
     "59": {
+      "id": 59,
       "name": "Hraparak TV",
-      "url": "https://www.youtube.com/c/Hraparakdaily/about",
-      "id": 59
+      "url": "https://www.youtube.com/c/Hraparakdaily/about"
     },
     "60": {
+      "id": 60,
       "name": "\u0531\u0576\u0576\u0561 \u0531\u0562\u0580\u0561\u0570\u0561\u0574\u0575\u0561\u0576 \u053b\u0574 \u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576 created DON DREAM",
-      "url": "https://www.youtube.com/channel/UCuuqSVCWfMlwlwlfXSLIfKg/about",
-      "id": 60
+      "url": "https://www.youtube.com/channel/UCuuqSVCWfMlwlwlfXSLIfKg/about"
     },
     "61": {
+      "id": 61,
       "name": "Yerkir Media - News",
-      "url": "https://www.youtube.com/user/YerkirmediaTV/about",
-      "id": 61
+      "url": "https://www.youtube.com/user/YerkirmediaTV/about"
     },
     "62": {
+      "id": 62,
       "name": "Yerkir Media \u0540\u0561\u0572\u0578\u0580\u0564\u0578\u0582\u0574\u0576\u0565\u0580",
-      "url": "https://www.youtube.com/channel/UCLqMTOyTNRVzavjJwZlFSvQ/about",
-      "id": 62
+      "url": "https://www.youtube.com/channel/UCLqMTOyTNRVzavjJwZlFSvQ/about"
     },
     "63": {
+      "id": 63,
       "name": "MenqHayenq Production",
-      "url": "https://www.youtube.com/channel/UCUfcIB5azeiUD2egV7p7FEQ/about",
-      "id": 63
+      "url": "https://www.youtube.com/channel/UCUfcIB5azeiUD2egV7p7FEQ/about"
     },
     "64": {
+      "id": 64,
       "name": "\u053c\u0550\u0531\u054f\u054e\u0531\u053f\u0531\u0546 \u054c\u0531\u0534\u053b\u0548 FM106.5",
-      "url": "https://www.youtube.com/channel/UCaJCNkhSa84QcuOSoM2WfcA/about",
-      "id": 64
+      "url": "https://www.youtube.com/channel/UCaJCNkhSa84QcuOSoM2WfcA/about"
     },
     "65": {
+      "id": 65,
       "name": "Repat Riarch",
-      "url": "https://www.youtube.com/c/RepatRiarch_official/about",
-      "id": 65
+      "url": "https://www.youtube.com/c/RepatRiarch_official/about"
     },
     "66": {
+      "id": 66,
       "name": "New Channel tv",
-      "url": "https://www.youtube.com/channel/UCDOG_qfxSvI-Dv1tkGpo8Dw/about",
-      "id": 66
+      "url": "https://www.youtube.com/channel/UCDOG_qfxSvI-Dv1tkGpo8Dw/about"
     },
     "67": {
+      "id": 67,
       "name": "HorizonArmenianTV",
-      "url": "https://www.youtube.com/user/HorizonArmenianTV/about",
-      "id": 67
+      "url": "https://www.youtube.com/user/HorizonArmenianTV/about"
     },
     "68": {
+      "id": 68,
       "name": "ARM GOOD INFO",
-      "url": "https://www.youtube.com/channel/UCenBDno0RFwOg23Kr00kJVg/about",
-      "id": 68
+      "url": "https://www.youtube.com/channel/UCenBDno0RFwOg23Kr00kJVg/about"
     },
     "69": {
+      "id": 69,
       "name": "Politik. am",
-      "url": "https://www.youtube.com/c/Politikam2021/about",
-      "id": 69
+      "url": "https://www.youtube.com/c/Politikam2021/about"
     },
     "70": {
+      "id": 70,
       "name": "armtimes.com",
-      "url": "https://www.youtube.com/c/ArmtimesNewspaper/about",
-      "id": 70
+      "url": "https://www.youtube.com/c/ArmtimesNewspaper/about"
     },
     "71": {
+      "id": 71,
       "name": "Styop Grigoryan",
-      "url": "https://www.youtube.com/user/123pepush/about",
-      "id": 71
+      "url": "https://www.youtube.com/user/123pepush/about"
     },
     "72": {
+      "id": 72,
       "name": "AsekoseTV",
-      "url": "https://www.youtube.com/channel/UCmsV3ead5PvSJwp6M6vik-A/about",
-      "id": 72
+      "url": "https://www.youtube.com/channel/UCmsV3ead5PvSJwp6M6vik-A/about"
     },
     "73": {
+      "id": 73,
       "name": "Aysor TV",
-      "url": "https://www.youtube.com/user/AysorTV/about",
-      "id": 73
+      "url": "https://www.youtube.com/user/AysorTV/about"
     }
   },
-  "viewDataFiles": [
+  "viewDeltaFiles": [
     {
-      "file": "view_deltas_June_07_2021_July_06_2021.json",
-      "startDate": "June_07_2021",
-      "endDate": "July_06_2021"
+      "fileName": "June_07_2021_July_06_2021.viewDeltas.json",
+      "start": "June_07_2021",
+      "end": "July_06_2021"
     },
     {
-      "file": "view_deltas_July_07_2021_August_06_2021.json",
-      "startDate": "July_07_2021",
-      "endDate": "August_06_2021"
+      "fileName": "July_07_2021_August_06_2021.viewDeltas.json",
+      "start": "July_07_2021",
+      "end": "August_06_2021"
     },
     {
-      "file": "view_deltas_August_07_2021_September_06_2021.json",
-      "startDate": "August_07_2021",
-      "endDate": "September_06_2021"
+      "fileName": "August_07_2021_September_06_2021.viewDeltas.json",
+      "start": "August_07_2021",
+      "end": "September_06_2021"
     },
     {
-      "file": "view_deltas_September_07_2021_September_12_2021.json",
-      "startDate": "September_07_2021",
-      "endDate": "September_12_2021"
+      "fileName": "September_07_2021_September_13_2021.viewDeltas.json",
+      "start": "September_07_2021",
+      "end": "September_13_2021"
+    }
+  ],
+  "subscriberDeltasFiles": [
+    {
+      "fileName": "June_07_2021_July_06_2021.subscriberDeltas.json",
+      "start": "June_07_2021",
+      "end": "July_06_2021"
+    },
+    {
+      "fileName": "July_07_2021_August_06_2021.subscriberDeltas.json",
+      "start": "July_07_2021",
+      "end": "August_06_2021"
+    },
+    {
+      "fileName": "August_07_2021_September_06_2021.subscriberDeltas.json",
+      "start": "August_07_2021",
+      "end": "September_06_2021"
+    },
+    {
+      "fileName": "September_07_2021_September_13_2021.subscriberDeltas.json",
+      "start": "September_07_2021",
+      "end": "September_13_2021"
+    }
+  ],
+  "subscriberCountsFiles": [
+    {
+      "fileName": "June_07_2021_July_06_2021.subscriberCounts.json",
+      "start": "June_07_2021",
+      "end": "July_06_2021"
+    },
+    {
+      "fileName": "July_07_2021_August_06_2021.subscriberCounts.json",
+      "start": "July_07_2021",
+      "end": "August_06_2021"
+    },
+    {
+      "fileName": "August_07_2021_September_06_2021.subscriberCounts.json",
+      "start": "August_07_2021",
+      "end": "September_06_2021"
+    },
+    {
+      "fileName": "September_07_2021_September_13_2021.subscriberCounts.json",
+      "start": "September_07_2021",
+      "end": "September_13_2021"
     }
   ]
 }
