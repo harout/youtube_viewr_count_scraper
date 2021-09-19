@@ -80,6 +80,102 @@ def split_list_to_batches(l, batch_size):
             for i in range((len(l) + batch_size - 1) // batch_size)]
 
 
+def correct_channel_view_counts(channelId, con):
+    # First delete any duplicate captures
+    cur = con.cursor()
+    cur.execute("""SELECT 
+                        DISTINCT strftime('%Y-%m-%d', datetime(captureDate, 'unixepoch')), 
+                        captureDate 
+                   FROM 
+                        daily_data 
+                   ORDER BY 
+                        captureDate DESC""")
+
+    captureDatesSeen = set()
+    captureDatesToDelete = []
+    for captureDateKey, captureDate in cur.fetchall():
+        if captureDateKey in captureDatesSeen:
+            captureDatesToDelete.append(captureDate)
+        captureDatesSeen.add(captureDateKey)
+
+    for captureDateToDelete in captureDatesToDelete:
+        cur.execute("""DELETE FROM daily_data WHERE captureDate = ?""",
+                    (captureDateToDelete,))
+        con.commit()
+
+    # Get the daily view counts for the channel
+    cur.execute("""SELECT 
+                        views,
+                        captureDate 
+                   FROM 
+                        daily_data 
+                   WHERE 
+                        channelId = ? 
+                   ORDER BY 
+                        captureDate""", (channelId,))
+    views = list([captureDate, views]
+                 for views, captureDate in cur.fetchall())
+    history = []
+
+    # Itterate over the view counts. If we see a view count
+    # that is less than the previous day's view count, then
+    # we have work to do
+    for date, view_count in views:
+        if len(history) == 0:
+            history.append([date, view_count])
+            continue
+
+        # If the view count is increasing, just keep
+        # appending the view count to the history
+        if history[-1][1] <= view_count:
+            history.append([date, view_count])
+            continue
+
+        # We have encountered a view count that is lower than
+        # the previous day's view count. All the view counts in
+        # the history that are greater than this view count will
+        # be thrown away. We will then lineary interpolate from
+        # the last day with a lower count to today's count.
+        suspect_dates = []
+        while len(history) > 0 and history[-1][1] > view_count:
+            suspect_dates.append(history.pop()[0])
+
+        # If there is nothing good left in the history then
+        # just copy today's view count back into the past
+        if len(history) == 0:
+            for date_from_history in suspect_dates:
+                history.append([date_from_history, view_count])
+            history.append([date, view_count])
+            continue
+
+        # We found a date in the history with a view count lower
+        # than today's view count. We will not interpolate the
+        # view count between these two values.
+        start_date, start_count = history[-1]
+        dt = date - start_date
+        dc = view_count - start_count
+        dc_dt = dc / dt
+
+        for suspect_date in suspect_dates:
+            dt = suspect_date - start_date
+            dc = dc_dt * dt
+            interpolated_count = int(start_count + dc)
+            history.append([suspect_date, interpolated_count])
+
+        history.append([date, view_count])
+
+    for date, view_count in history:
+        cur.execute("""UPDATE 
+                            daily_data 
+                       SET 
+                            correctedViews = ? 
+                       WHERE 
+                            channelId = ? AND 
+                            captureDate = ? 
+                       LIMIT 1""", (view_count, channelId, date))
+    con.commit()
+
+
 def get_batch_data(dates, con):
     earliest_date = dates[0]
     latest_date = dates[-1]
@@ -102,7 +198,7 @@ def get_batch_data(dates, con):
 
     for channel_id in channel_ids:
         cur.execute("""SELECT
-                        views,
+                        correctedViews,
                         subscribers
                       FROM
                         daily_data
@@ -186,7 +282,7 @@ def get_data_for_date(date, con):
     cur = con.cursor()
     cur.execute("""SELECT
                       channelId,
-                      views,
+                      correctedViews,
                       subscribers
                    FROM
                       daily_data
@@ -244,9 +340,11 @@ def get_channels(con):
 if __name__ == '__main__':
     con = sqlite3.connect('./data/channel_stats.db')
     cur = con.cursor()
-
     channels = get_channels(con)
+
     scrape_and_save_data(channels, con)
+    for channel in channels.values():
+        correct_channel_view_counts(channel['id'], con)
 
     report_dates = get_available_report_dates(con)
     first_day, report_dates = report_dates[0], report_dates[1:]
