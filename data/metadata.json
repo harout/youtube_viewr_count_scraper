@@ -368,67 +368,67 @@
   },
   "viewDeltaFiles": [
     {
-      "fileName": "June_07_2021_July_06_2021.viewDeltas.json",
-      "start": "June_07_2021",
-      "end": "July_06_2021"
+      "fileName": "June_08_2021_July_07_2021.viewDeltas.json",
+      "start": "June_08_2021",
+      "end": "July_07_2021"
     },
     {
-      "fileName": "July_07_2021_August_06_2021.viewDeltas.json",
-      "start": "July_07_2021",
-      "end": "August_06_2021"
+      "fileName": "July_08_2021_August_07_2021.viewDeltas.json",
+      "start": "July_08_2021",
+      "end": "August_07_2021"
     },
     {
-      "fileName": "August_07_2021_September_06_2021.viewDeltas.json",
-      "start": "August_07_2021",
-      "end": "September_06_2021"
+      "fileName": "August_08_2021_September_08_2021.viewDeltas.json",
+      "start": "August_08_2021",
+      "end": "September_08_2021"
     },
     {
-      "fileName": "September_07_2021_September_18_2021.viewDeltas.json",
-      "start": "September_07_2021",
+      "fileName": "September_09_2021_September_18_2021.viewDeltas.json",
+      "start": "September_09_2021",
       "end": "September_18_2021"
     }
   ],
   "subscriberDeltasFiles": [
     {
-      "fileName": "June_07_2021_July_06_2021.subscriberDeltas.json",
-      "start": "June_07_2021",
-      "end": "July_06_2021"
+      "fileName": "June_08_2021_July_07_2021.subscriberDeltas.json",
+      "start": "June_08_2021",
+      "end": "July_07_2021"
     },
     {
-      "fileName": "July_07_2021_August_06_2021.subscriberDeltas.json",
-      "start": "July_07_2021",
-      "end": "August_06_2021"
+      "fileName": "July_08_2021_August_07_2021.subscriberDeltas.json",
+      "start": "July_08_2021",
+      "end": "August_07_2021"
     },
     {
-      "fileName": "August_07_2021_September_06_2021.subscriberDeltas.json",
-      "start": "August_07_2021",
-      "end": "September_06_2021"
+      "fileName": "August_08_2021_September_08_2021.subscriberDeltas.json",
+      "start": "August_08_2021",
+      "end": "September_08_2021"
     },
     {
-      "fileName": "September_07_2021_September_18_2021.subscriberDeltas.json",
-      "start": "September_07_2021",
+      "fileName": "September_09_2021_September_18_2021.subscriberDeltas.json",
+      "start": "September_09_2021",
       "end": "September_18_2021"
     }
   ],
   "subscriberCountsFiles": [
     {
-      "fileName": "June_07_2021_July_06_2021.subscriberCounts.json",
-      "start": "June_07_2021",
-      "end": "July_06_2021"
+      "fileName": "June_08_2021_July_07_2021.subscriberCounts.json",
+      "start": "June_08_2021",
+      "end": "July_07_2021"
     },
     {
-      "fileName": "July_07_2021_August_06_2021.subscriberCounts.json",
-      "start": "July_07_2021",
-      "end": "August_06_2021"
+      "fileName": "July_08_2021_August_07_2021.subscriberCounts.json",
+      "start": "July_08_2021",
+      "end": "August_07_2021"
     },
     {
-      "fileName": "August_07_2021_September_06_2021.subscriberCounts.json",
-      "start": "August_07_2021",
-      "end": "September_06_2021"
+      "fileName": "August_08_2021_September_08_2021.subscriberCounts.json",
+      "start": "August_08_2021",
+      "end": "September_08_2021"
     },
     {
-      "fileName": "September_07_2021_September_18_2021.subscriberCounts.json",
-      "start": "September_07_2021",
+      "fileName": "September_09_2021_September_18_2021.subscriberCounts.json",
+      "start": "September_09_2021",
       "end": "September_18_2021"
     }
   ]
