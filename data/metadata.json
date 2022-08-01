@@ -433,9 +433,9 @@
       "end": "July_12_2022"
     },
     {
-      "fileName": "July_13_2022_July_31_2022.viewDeltas.json",
+      "fileName": "July_13_2022_August_01_2022.viewDeltas.json",
       "start": "July_13_2022",
-      "end": "July_31_2022"
+      "end": "August_01_2022"
     }
   ],
   "subscriberDeltasFiles": [
@@ -505,9 +505,9 @@
       "end": "July_12_2022"
     },
     {
-      "fileName": "July_13_2022_July_31_2022.subscriberDeltas.json",
+      "fileName": "July_13_2022_August_01_2022.subscriberDeltas.json",
       "start": "July_13_2022",
-      "end": "July_31_2022"
+      "end": "August_01_2022"
     }
   ],
   "subscriberCountsFiles": [
@@ -577,9 +577,9 @@
       "end": "July_12_2022"
     },
     {
-      "fileName": "July_13_2022_July_31_2022.subscriberCounts.json",
+      "fileName": "July_13_2022_August_01_2022.subscriberCounts.json",
       "start": "July_13_2022",
-      "end": "July_31_2022"
+      "end": "August_01_2022"
     }
   ]
 }
