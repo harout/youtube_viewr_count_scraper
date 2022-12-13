@@ -364,6 +364,11 @@
       "id": 73,
       "name": "Aysor TV",
       "url": "https://www.youtube.com/user/AysorTV/about"
+    },
+    "74": {
+      "id": 74,
+      "name": "Chibukhchyan Live",
+      "url": "https://www.youtube.com/@chibukhchyanlive/about"
     }
   },
   "viewDeltaFiles": [
@@ -453,9 +458,9 @@
       "end": "November_14_2022"
     },
     {
-      "fileName": "November_15_2022_December_09_2022.viewDeltas.json",
+      "fileName": "November_15_2022_December_12_2022.viewDeltas.json",
       "start": "November_15_2022",
-      "end": "December_09_2022"
+      "end": "December_12_2022"
     }
   ],
   "subscriberDeltasFiles": [
@@ -545,9 +550,9 @@
       "end": "November_14_2022"
     },
     {
-      "fileName": "November_15_2022_December_09_2022.subscriberDeltas.json",
+      "fileName": "November_15_2022_December_12_2022.subscriberDeltas.json",
       "start": "November_15_2022",
-      "end": "December_09_2022"
+      "end": "December_12_2022"
     }
   ],
   "subscriberCountsFiles": [
@@ -637,9 +642,9 @@
       "end": "November_14_2022"
     },
     {
-      "fileName": "November_15_2022_December_09_2022.subscriberCounts.json",
+      "fileName": "November_15_2022_December_12_2022.subscriberCounts.json",
       "start": "November_15_2022",
-      "end": "December_09_2022"
+      "end": "December_12_2022"
     }
   ]
 }
