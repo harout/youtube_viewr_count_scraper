@@ -34,6 +34,7 @@ def fetch_channel_info(channel):
 
     num_views = num_views_search.group(2)
     num_views = num_views.replace(',', '')
+    print('Channel ', channel_id, ' has ', num_views, ' views')
     return [channel_id, num_subscribers, num_views]
 
 
